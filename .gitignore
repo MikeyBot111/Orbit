@@ -1,0 +1,26 @@
+# Secrets: real API keys live here (use .env.example as the template)
+.env
+
+# Investigation data: never commit real cases or evidence
+cases/
+evidence_manifest.jsonl
+eth_network.json
+orbit.log
+*.log
+
+# Scratch notes and private planning
+b.txt
+a.txt
+IDEAS.md
+
+# Python / editor
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
